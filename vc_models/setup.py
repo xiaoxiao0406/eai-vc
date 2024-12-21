@@ -15,7 +15,7 @@ packages = find_packages(where="src") + find_namespace_packages(
 install_requires = [
     "torch >= 1.10.2",
     "torchvision >= 0.11.3",
-    "timm==0.6.11",
+    # "timm == 0.6.110",  
     "hydra-core",
     "wandb>=0.13",
     "six"

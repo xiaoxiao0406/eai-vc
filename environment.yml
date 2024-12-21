@@ -1,4 +1,4 @@
-name: eai-vc
+name: eai-vc-s1
 channels:
   - aihabitat
   - pytorch
@@ -15,7 +15,7 @@ dependencies:
   - cffi
   - cmake=3.22.1
   - cudatoolkit=11.6
-  - cython
+  - cython<3.0
   - flake8
   - glfw
   - habitat-sim=0.2.1

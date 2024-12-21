@@ -291,3 +291,6 @@ def load_contrastive_vit(model, checkpoint_path=None, state_dict_key="state_dict
 
     model.load_state_dict(state_dict)
     return model
+
+def load_spa_encoder(model):
+    return model
